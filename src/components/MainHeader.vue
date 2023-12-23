@@ -20,6 +20,7 @@
 header{
   width: 100vw;
   height: 5em;
+  padding: 1.5em;
   background-color: #142828;
   display: flex;
   align-items: center;

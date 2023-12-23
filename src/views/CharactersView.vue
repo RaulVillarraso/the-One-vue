@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="characterList">
     <CharacterCard v-for="character in characters" :key="character.id" :name="character.name" :race="character.race" />
   </div>
 </template>
@@ -22,5 +22,8 @@ onMounted(async () => {
 </script>
 
 <style lang="scss" scoped>
-
+.characterList{
+  display: flex;
+  flex-wrap: wrap;
+}
 </style>

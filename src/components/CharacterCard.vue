@@ -1,6 +1,7 @@
 <template>
   <div class="characterCard">
-    {{ name }} - {{ race }}
+    <span>{{ name }}</span> -
+    <span>{{ race }}</span>
   </div>
 </template>
 
@@ -14,8 +15,10 @@ const props = defineProps({
 
 <style lang="scss" scoped>
 .characterCard{
-  width: 8em;
-  height: 4em;
+  width: 10em;
+  height: 5em;
   background-color: #cfa76b;
+  margin: 8px;
+  color: #444444;
 }
 </style>
