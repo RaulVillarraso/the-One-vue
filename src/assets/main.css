@@ -8,6 +8,9 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
+  background-image: url('https://png.pngtree.com/png-vector/20230729/ourmid/pngtree-damask-digital-paper-seamless-floral-pattern-black-flowers-on-a-white-vector-png-image_8874350.png');
+  background-color: #28645091;
+  background-blend-mode: lighten;
 }
 
 a,
