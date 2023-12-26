@@ -13,7 +13,7 @@ const props = defineProps({
 
 </script>
 
-<style lang="scss" scoped>
+<style scoped>
 .characterCard{
   width: 10em;
   height: 5em;

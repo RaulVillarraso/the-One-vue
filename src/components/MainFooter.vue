@@ -8,7 +8,7 @@
 
 </script>
 
-<style lang="scss" scoped>
+<style scoped>
   footer{
     width: 100vw;
     height: 2em;

@@ -21,9 +21,11 @@ onMounted(async () => {
 
 </script>
 
-<style lang="scss" scoped>
+<style scoped>
 .characterList{
   display: flex;
   flex-wrap: wrap;
+  margin-top: 200px;
+  height: 100%;
 }
 </style>

@@ -11,7 +11,7 @@
 
 </script>
 
-<style lang="scss" scoped>
+<style scoped>
 .welcome{
   padding: 8px;
   background-color: #c8b4b4;
