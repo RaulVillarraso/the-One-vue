@@ -1,7 +1,7 @@
 <template>
-  <div class="characterCard">
-    <span>{{ name }}</span> -
-    <span>{{ race }}</span>
+  <div class="w-40 h-20 bg-ring-light text-gray-900 m-2 rounded-lg border-2 border-solid border-ring-golden flex flex-col items-center justify-center">
+    <p class="font-bold text-xl">{{ name }}</p>
+    <p>{{ race }}</p>
   </div>
 </template>
 
@@ -14,11 +14,5 @@ const props = defineProps({
 </script>
 
 <style scoped>
-.characterCard{
-  width: 10em;
-  height: 5em;
-  background-color: #cfa76b;
-  margin: 8px;
-  color: #444444;
-}
+
 </style>

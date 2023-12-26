@@ -1,6 +1,8 @@
 <template>
-  <div class="characterList">
-    <CharacterCard v-for="character in characters" :key="character.id" :name="character.name" :race="character.race" />
+  <div class="mt-44 h-screen">
+    <div class="flex flex-wrap h-full">
+      <CharacterCard v-for="character in characters" :key="character.id" :name="character.name" :race="character.race" />
+    </div>
   </div>
 </template>
 
@@ -25,7 +27,6 @@ onMounted(async () => {
 .characterList{
   display: flex;
   flex-wrap: wrap;
-  margin-top: 200px;
   height: 100%;
 }
 </style>
